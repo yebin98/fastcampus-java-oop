@@ -1,4 +1,6 @@
 import logic.BubbleSort;
+import logic.JavaSort;
+import logic.Sort;
 
 import java.util.Arrays;
 
@@ -11,7 +13,7 @@ import java.util.Arrays;
  */
 public class Main {
     public static void main(String[] args) {
-        BubbleSort<String> sort = new BubbleSort<>();
+        Sort<String> sort = new JavaSort<>();
 
         System.out.println("sort = " + sort.sort(Arrays.asList(args)));
 
